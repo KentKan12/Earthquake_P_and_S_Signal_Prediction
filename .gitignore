@@ -1,0 +1,18 @@
+# Data mentah biner berukuran besar (Wajib diabaikan)
+*.hdf5
+*.h5
+data/*.hdf5
+data/*.h5
+
+# Python & Jupyter Cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Environment & OS
+.env
+.venv
+env/
+venv/
+.DS_Store
