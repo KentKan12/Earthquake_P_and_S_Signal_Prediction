@@ -1,0 +1,79 @@
+/* Import font sans-serif minimalis */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Aturan Global */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFBF7; /* Latar belakang Cream */
+    color: #2B2B2B;
+}
+
+/* Header & Teks */
+h1, h2, h3 {
+    color: #2B2B2B;
+    font-weight: 700;
+}
+
+/* Flat Panel (Card) Container */
+.st-emotion-cache-1r6slb0 {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: none; /* Flat 2D vector style, no 3D shadow */
+}
+
+/* Indikator Peringatan (Sage Green / Terracotta) */
+.status-aman {
+    background-color: #8BA88E;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.status-bahaya {
+    background-color: #D37D6E;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    animation: pulse 1.5s infinite;
+}
+
+/* Animasi untuk status peringatan (Flat style) */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.85; }
+    100% { opacity: 1; }
+}
+
+/* Kustomisasi tombol (Flat Vector) */
+.stButton>button {
+    background-color: #8BA88E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.stButton>button:hover {
+    background-color: #79957B;
+    border: none;
+    color: #FFFFFF;
+}
+
+/* Tombol Download */
+.stDownloadButton>button {
+    background-color: #E2E8F0;
+    color: #475569;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-weight: 600;
+}
