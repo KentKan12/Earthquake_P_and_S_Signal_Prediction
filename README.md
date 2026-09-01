@@ -93,6 +93,9 @@ terdeteksi, menampilkan estimasi waktu kemunculan fase 𝑆, dan mengonfirmasi k
 ##  Dataset & Referensi
 Publikasi Ilmiah STEAD:  
 Mousavi, S. M., Sheng, Y., Zhu, W., & Beroza, G. C. (2019). STanford EArthquake Dataset (STEAD): A Global Data Set of Seismic Signals for AI. IEEE Access, 7, 179464–179476. doi:10.1109/ACCESS.2019.2947848
+
 Repositori Resmi STEAD: smousavi05/STEAD
+
 STEAD Chunk 1 (https://www.kaggle.com/datasets/julianachristamacam/steadchunk1)
+
 STEAD Chunk 2 (https://www.kaggle.com/datasets/alextitu/stead-chunk-2)
